@@ -14,6 +14,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SAKSHI_PORTFOLIO_61ECC }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SAKSHI_NIGUDKAR_AC207 }}'
           channelId: live
-          projectId: sakshi-portfolio-61ecc
+          projectId: sakshi-nigudkar-ac207
