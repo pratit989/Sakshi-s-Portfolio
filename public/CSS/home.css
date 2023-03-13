@@ -1,3 +1,4 @@
+c.css
 * {
   margin: 0;
   padding: 0;
@@ -14,11 +15,16 @@
 /*header */
 
 .header {
-  background-color: #fff;
+  background-color: transparent;
   position: sticky;
   width: 100%;
   z-index: 1000;
   top: 0;
+  height : 80px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header ul {
@@ -26,7 +32,7 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .header li a {
@@ -48,7 +54,7 @@ width: auto;
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #E9EEF2;
 }
 
 .header .logo {
@@ -57,7 +63,7 @@ width: auto;
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
-  background-color: #fff;
+  background-color: transparent;
 
 }
 
@@ -146,9 +152,8 @@ width: auto;
   display: flex;
 }
 .header li a {
-  padding: 20px;
-  margin: auto;
-  
+    padding: 10px 20px 10px 20px;
+    margin: auto;
 }
 .header .menu {
   clear: none;
@@ -212,7 +217,7 @@ width: auto;
 }
 
 .HSR img {
-  max-width: 70%;
+  max-width: 60%;
   display: block;
 }
 
