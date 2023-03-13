@@ -13,33 +13,28 @@
 /*header */
 
 .header {
-  background-color: transparent;
-  position: sticky;
-  width: 100%;
-  z-index: 1000;
-  top: 0;
-  height : 80px;
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: transparent;
+    position: sticky;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
 }
 
 .header ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-  background-color: transparent;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: transparent;
 }
 
 .header li a {
-  display: block;
-  padding: 20px 20px;
-  text-decoration: none;
-  background-color: transparent;
-  color: #173952;
-  text-decoration: none;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #173952;
+    text-decoration: none;
 padding: 0 20px;
 font-family: 'Roboto Slab';
 text-decoration: none;
@@ -52,16 +47,16 @@ width: auto;
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #E9EEF2;
+    background-color: #f4f4f4;
 }
 
 .header .logo {
-  display: block;
-  float: left;
-  font-size: 2em;
-  padding: 10px 20px;
-  text-decoration: none;
-  background-color: transparent;
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: transparent;
 
 }
 
@@ -86,7 +81,7 @@ width: auto;
 }
 
 .header .menu-icon .navicon {
-    background: #173952;
+    background: #663F06;
     display: block;
     height: 2px;
     position: relative;
@@ -140,7 +135,6 @@ width: auto;
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
 }
-
 
 /* 48em = 768px */
 
@@ -1404,6 +1398,44 @@ footer {
 
   @media only screen and (max-width: 690px) {
 
+      
+      /*navbar*/
+
+.header{
+    height: 60px;
+}
+
+.logo img{
+    height: 60px;
+}
+
+.logo{
+    height: 60px;
+    padding: 10px;
+}
+
+.header .logo{
+    height: 60px;
+    padding: 5px;
+}
+
+.header .menu-icon{
+    padding: 30px 50px 10px 50px;
+}
+
+.header li a {
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    color: #173952;
+    text-decoration: none;
+    padding: 10px 200px;
+    font-family: 'Roboto Slab';
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    width: auto;
+}
     /*Cover*/
     .cover {
         min-height: auto;
