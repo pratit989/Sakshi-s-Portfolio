@@ -336,6 +336,14 @@ width: auto;
 
 /*myProjects*/
 
+.togCS{
+  display: flex;
+  justify-content: center; /* Center-align horizontally */
+  align-items: center; /* Center-align vertically */
+  width: 80%; 
+}
+
+
 .CS {
   display: flex;
   justify-content: center; /* Center-align horizontally */
