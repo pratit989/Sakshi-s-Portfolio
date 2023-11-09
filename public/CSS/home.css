@@ -184,6 +184,15 @@ width: auto;
   width: 100%;
 }
 
+#project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center-align the text within the section */
+}
+
+
 .container {
   display: flex;
   align-items: center;
