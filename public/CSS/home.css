@@ -342,6 +342,7 @@ width: auto;
   align-items: center; /* Center-align vertically */
   width: 80%; 
   flex-direction: column;
+  flex-flow: column;
 }
 
 
