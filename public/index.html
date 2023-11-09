@@ -11,20 +11,22 @@
 </head>
 
 <body>
-        <header class="header">
-            <div class="logo">
-                <a href="index.html"><img src="/Icons/Logo_label Blue.svg" alt="Logo" srcset=""> </a>
-            </div>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                <li><a href="https://drive.google.com/file/d/1bhHu_IFnyU1oAtUWCOsEnXBLVI-W61AL/view?usp=sharing" target="_blank">Resume</a></li>
-
-                <li><a href="/HTML/about.html" target="_self">About Me</a></li>
-                <li><a href="#project">Projects</a></li>
-            </ul>
-
-        </header>
+    
+    
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="/Icons/Logo_label Blue.svg" alt="Logo" srcset=""> </a>
+        </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="https://drive.google.com/file/d/1bhHu_IFnyU1oAtUWCOsEnXBLVI-W61AL/view?usp=sharing" target="_blank">Resume</a></li>
+            <li><a href="about.html" target="_self">About Me</a></li>
+            <li><a href="#project">Projects</a></li>
+        </ul>
+    </header>
+    
+   <div class="container">
 
         <section class="hero">
 
@@ -36,12 +38,14 @@
                     I'm UX Designer and Computer Engineering student who admires the potential of technology and people.
                     I strive to create experiences which impact people’s lives.
                 </p>
-
-                <div class="btn-holder">
-                    <button class="btn_lg">
-                        <span>View Resume</span>
-                    </button>
-                </div>
+                
+                <a href="https://drive.google.com/file/d/1bhHu_IFnyU1oAtUWCOsEnXBLVI-W61AL/view?usp=sharing" target="_blank">
+                        <div class="btn-holder">
+                            <button class="btn_lg">
+                                <span>View Resume</span>
+                            </button>
+                        </div>
+                </a>
 
 
 
@@ -53,67 +57,70 @@
 
         </section>
 
-        <section id="project">
+        <section class="project" id="project">
             <p class="text-lg">
                 Welcome to my Creative Space
             </p>
-            <div class="CS">
-                <div class="CSL">
-                    <img src="/Images/Art Gallery Tour App Cover.svg" alt="Art Gallery Tour App Cover">
-                </div>
-                <div class="CSR">
-                    <div class="CSRtext">
-                        <p class="cstype">App Design</p>
-                        <h1 class="csheader">Art Gallery Tour App</h1>
-                        <p class="cssubheader">Designing an immersive tour experience</p>
+            
+            <div class="togCS">
+                <div class="CS">
+                    <div class="CSL">
+                        <img src="/Images/Art Gallery Tour App Cover.svg" alt="Art Gallery Tour App Cover">
                     </div>
-                    <a href="/HTML/cs1.html">
-                        <div class="btn-holder">
-                            <button class="btn_lg">
-                                <span>View Casestudy</span>
-                            </button>
+                    <div class="CSR">
+                        <div class="CSRtext">
+                            <p class="cstype">App Design</p>
+                            <h1 class="csheader">Art Gallery Tour App</h1>
+                            <p class="cssubheader">Designing an immersive tour experience</p>
                         </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="CS">
-                <div class="CSL">
-                    <img src="/Images/PerFit Clothing Website Cover.svg" alt="PerFit Clothing Website Cover">
-                </div>
-                <div class="CSR">
-                    <div class="CSRtext">
-                        <p class="cstype">Responsive Web Design</p>
-                        <h1 class="csheader">PerFit : Clothing Website</h1>
-                        <p class="cssubheader">PerFect Fit with VR</p>
+                        <a href="/public/HTML/cs1.html">
+                            <div class="btn-holder">
+                                <button class="btn_lg">
+                                    <span>View Casestudy</span>
+                                </button>
+                            </div>
+                        </a>
                     </div>
-                    <a href="/HTML/cs2.html">
-                        <div class="btn-holder">
-                            <button class="btn_lg">
-                                <span>View Casestudy</span>
-                            </button>
-                        </div>
-                    </a>
                 </div>
-            </div>
-
-            <div class="CS">
-                <div class="CSL">
-                    <img src="/Images/Let's Serve Volunteering App Cover.svg" alt="Let's Serve Volunteering App Cover">
-                </div>
-                <div class="CSR">
-                    <div class="CSRtext">
-                        <p class="cstype">App Design</p>
-                        <h1 class="csheader">Let's Serve : Volunteering App</h1>
-                        <p class="cssubheader">Finding the right opportunity for you</p>
+    
+                <div class="CS">
+                    <div class="CSL">
+                        <img src="/Images/PerFit Clothing Website Cover.svg" alt="PerFit Clothing Website Cover">
                     </div>
-                    <a href="/HTML/cs3.html">
-                        <div class="btn-holder">
-                            <button class="btn_lg">
-                                <span>View Casestudy</span>
-                            </button>
+                    <div class="CSR">
+                        <div class="CSRtext">
+                            <p class="cstype">Responsive Web Design</p>
+                            <h1 class="csheader">PerFit : Clothing Website</h1>
+                            <p class="cssubheader">PerFect Fit with VR</p>
                         </div>
-                    </a>
+                        <a href="cs2.html">
+                            <div class="btn-holder">
+                                <button class="btn_lg">
+                                    <span>View Casestudy</span>
+                                </button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="CS">
+                    <div class="CSL">
+                        <img src="/Images/Let's Serve Volunteering App Cover.svg" alt="Let's Serve Volunteering App Cover">
+                    </div>
+                    <div class="CSR">
+                        <div class="CSRtext">
+                            <p class="cstype">App Design</p>
+                            <h1 class="csheader">Let's Serve : Volunteering App</h1>
+                            <p class="cssubheader">Finding the right opportunity for you</p>
+                        </div>
+                        <a href="cs3.html">
+                            <div class="btn-holder">
+                                <button class="btn_lg">
+                                    <span>View Casestudy</span>
+                                </button>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
