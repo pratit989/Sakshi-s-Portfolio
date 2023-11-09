@@ -329,8 +329,7 @@ width: auto;
 
 .CS {
   width: 80%;
-  display: flex;
-  margin: 20px;
+  margin: 20px auto; /* Center-align horizontally */
   padding: 1.8vw;
   background-color: white;
   cursor: pointer;
@@ -341,8 +340,8 @@ width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
+
 
 .cs:hover {
   background-color: #e9eef2;
